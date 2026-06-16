@@ -1,7 +1,7 @@
 ## Table name: Car Inventory
 
 - id pk BIGINT NOT NULL UNIQUE INDEX
-- marca
+- marca 
 - modello
 - numero porte
 - motorizzazione
@@ -12,16 +12,16 @@
 - carburante
 - potenza
 - carrozzeria
-- usato/nuovo
+- usato/nuovo TINYINT DEFAULT (1) NULL
 - trazione
 - posti
 - porte
-- per neopatentati
+- per neopatentati TINYINT DEFAULT (1) NULL
 - cilindrata
 - marce
 - cilindri
-- peso a vuoto
+- peso a vuoto VARCHAR ()
 - consumo di carburante l/100km
-- classe euro
-- accessori
-- note
+- classe euro 
+- accessori TEXT NULL
+- note TEXT NULL
