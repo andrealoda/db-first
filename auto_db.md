@@ -1,0 +1,27 @@
+## Table name: Car Inventory
+
+- id pk BIGINT NOT NULL UNIQUE INDEX
+- marca
+- modello
+- numero porte
+- motorizzazione
+- prezzo
+- chilometraggio
+- tipo di cambio
+- mese/anno di immatricolazione
+- carburante
+- potenza
+- carrozzeria
+- usato/nuovo
+- trazione
+- posti
+- porte
+- per neopatentati
+- cilindrata
+- marce
+- cilindri
+- peso a vuoto
+- consumo di carburante l/100km
+- classe euro
+- accessori
+- note
