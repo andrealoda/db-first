@@ -1,27 +1,26 @@
-## Table name: Car Inventory
+## Table name: car_inventory
 
-- id pk BIGINT NOT NULL UNIQUE INDEX
-- marca 
-- modello
-- numero porte
-- motorizzazione
-- prezzo
-- chilometraggio
-- tipo di cambio
-- mese/anno di immatricolazione
-- carburante
-- potenza
-- carrozzeria
-- usato/nuovo TINYINT DEFAULT (1) NULL
-- trazione
-- posti
-- porte
+- id pk BIGINT NOT_NULL UNIQUE INDEX AUTO_INCREMENT
+- marca VARCHAR (50) NOT_NULL
+- modello VARCHAR (60) NOT_NULL
+- numero porte TINYINT NOT_NULL
+- motorizzazione VARCHAR (20) NOT_NULL
+- prezzo DECIMAL(9,2) NOT_NULL
+- chilometraggio INT NOT_NULL
+- cambio VARCHAR (10) NOT_NULL
+- immatricolazione DATE NOT_NULL
+- carburante VARCHAR (9) NOT_NULL
+- potenza_cv SMALLINT NOT_NULL
+- carrozzeria VARCHAR (20) NOT_NULL
+- usato/nuovo TINYINT DEFAULT (1) NOT_NULL
+- trazione VARCHAR (10) NOT_NULL
+- posti TINYINT NOT_NULL
 - per neopatentati TINYINT DEFAULT (1) NULL
-- cilindrata
-- marce
-- cilindri
-- peso a vuoto VARCHAR ()
-- consumo di carburante l/100km
-- classe euro 
+- cilindrata SMALLINT NOT_NULL
+- marce TINYINT NOT_NULL
+- cilindri TINYINT NOT_NULL
+- peso a vuoto SMALLINT NULL
+- consumo di carburante l/100km DECIMAL(4,2) NULL
+- classe euro TINYINT NOT_NULL
 - accessori TEXT NULL
 - note TEXT NULL
