@@ -1,6 +1,8 @@
 ## Table name: car_inventory
 
 - id pk BIGINT NOT_NULL UNIQUE INDEX AUTO_INCREMENT
+- targa CHAR (7) NOT_NULL UNIQUE
+- telaio VARCHAR (50) NOT_NULL UNIQUE
 - marca VARCHAR (50) NOT_NULL
 - modello VARCHAR (60) NOT_NULL
 - numero porte TINYINT NOT_NULL
