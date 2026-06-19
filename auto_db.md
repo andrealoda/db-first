@@ -11,6 +11,7 @@
 - chilometraggio INT NOT_NULL
 - cambio VARCHAR (10) NOT_NULL
 - immatricolazione DATE NOT_NULL
+- numero proprietari precedenti TINYINY NULL
 - carburante VARCHAR (9) NOT_NULL
 - potenza_cv SMALLINT NOT_NULL
 - carrozzeria VARCHAR (20) NOT_NULL
